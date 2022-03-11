@@ -1,0 +1,2 @@
+# python-test
+training myself
