@@ -1,7 +1,8 @@
 array = ['\n']
-while True :
+isLoop = True
+while isLoop :
     words= input('Write any words to sort them in an alphabetical order,to see the results please write "cancel" : ')
     if words != 'cancel':
         array.append(words)
-    elif words == 'cancel' : break
+    elif words == 'cancel' : isLoop = False
 print(*sorted(array), sep = '\n')
